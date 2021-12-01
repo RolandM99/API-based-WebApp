@@ -1,7 +1,7 @@
 {
-  "name": "API-based-WebApp",
+  "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "This project is about building our own web application based on an external API",
+  "description": "In this project we build a simple and powerful webpack boilerplate, which we can later use as a starting point in all your JS projects",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RolandM99/API-based-WebApp.git"
+    "url": "git+https://github.com/RolandM99/setUp-webpack-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RolandM99/API-based-WebApp/issues"
+    "url": "https://github.com/RolandM99/setUp-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/RolandM99/API-based-WebApp#readme",
+  "homepage": "https://github.com/RolandM99/setUp-webpack-boilerplate#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.5.0",

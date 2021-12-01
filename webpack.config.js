@@ -16,8 +16,6 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/API-based-WebApp/',
-    clean: true,
   },
   module: {
     rules: [
