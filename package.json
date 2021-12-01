@@ -21,7 +21,7 @@
   "homepage": "https://github.com/RolandM99/API-based-WebApp#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "css-loader": "^6.5.0",
+    "css-loader": "^6.5.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",
