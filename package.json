@@ -1,28 +1,8 @@
 {
-  "name": "API-based-WebApp",
+  "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "private": "true",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "css-loader": "^6.5.1",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.3",
-    "hint": "^6.1.9",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0",
-    "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.6.0"
-  },
+  "description": "In this project we build a simple and powerful webpack boilerplate, which we can later use as a starting point in all your JS projects",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
@@ -30,13 +10,33 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RolandM99/API-based-WebApp.git"
+    "url": "git+https://github.com/RolandM99/setUp-webpack-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RolandM99/API-based-WebApp/issues"
+    "url": "https://github.com/RolandM99/setUp-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/RolandM99/API-based-WebApp#readme"
+  "homepage": "https://github.com/RolandM99/setUp-webpack-boilerplate#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.5.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "hint": "^6.1.7",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
