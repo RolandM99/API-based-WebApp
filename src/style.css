@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Beastly&family=Varela+Round&display=swap');
+
 body {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(58, 150, 150);
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list {
+  font-family: 'Varela Round', sans-serif;
+  width: 300px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.my-logo {
+  margin-left: 10px;
+  margin-top: 15px;
+  text-decoration: none;
+  font-family: 'Rubik Beastly', cursive;
 }
