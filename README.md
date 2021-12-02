@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# API based WebApp
 
-> One paragraph statement about the project.
+> This project is about a web application based on an external API.
 
 ![screenshot](./app_screenshot.png)
 
