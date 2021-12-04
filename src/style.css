@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Beastly&family=Varela+Round&display=swap');
 
 body {
+  background-color: rgba(226, 224, 224, 0.555);
   height: 100%;
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ body {
 
 .header-container {
   height: 70px;
+  margin-top: -130px;
   position: fixed;
   width: 100%;
   background-color: rgb(58, 150, 150);
@@ -20,14 +22,20 @@ body {
 }
 
 .nav-list {
+  display: none;
   cursor: pointer;
   margin-top: 25px;
-  font-size: 17px;
+  font-size: 20px;
   font-family: 'Varela Round', sans-serif;
   width: 400px;
-  display: flex;
   list-style: none;
   justify-content: space-around;
+}
+
+.menu-bars {
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 .my-logo {
@@ -39,9 +47,71 @@ body {
   font-family: 'Rubik Beastly', cursive;
 }
 
+.image {
+  width: 90%;
+  height: 100%;
+  margin-left: 23px;
+}
+
+.home-page {
+  justify-content: center;
+  margin-left: 20px;
+  width: 90%;
+  display: grid;
+  gap: 40px;
+  position: static;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+.card-container {
+  box-shadow: rgba(0, 0, 0, 0.678) 0 4px 18px 4px;
+  border-radius: 40px 0;
+  background-color: rgb(58, 150, 150);
+  padding-top: 24px;
+  padding-bottom: 18px;
+}
+
+h3 {
+  height: 40px;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.like-comment {
+  font-family: 'Varela Round', sans-serif;
+  margin: -10px 60px 0;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#text {
+  margin-top: -5px;
+  height: 0;
+}
+
+.fa-comment {
+  margin-left: 30px;
+}
+
+.comment {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.love {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   width: 100%;
-  background-color: rgb(58, 150, 150);
+  background-color: rgb(21, 73, 73);
   bottom: 0;
   position: fixed;
   font-family: 'Varela Round', sans-serif;
@@ -49,6 +119,38 @@ footer {
 
 .my-footer {
   display: flex;
-  justify-content: left;
-  margin-left: 120px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    display: flex;
+    font-weight: 100;
+  }
+
+  .menu-bars {
+    display: none;
+  }
+
+  .image {
+    width: 90%;
+    height: 90%;
+    margin-left: 23px;
+  }
+
+  .art-picture {
+    height: 300px;
+  }
+
+  .title {
+    margin-left: 6px;
+    width: 330px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .home-page {
+    margin-left: 75px;
+    grid-template-columns: repeat(3, 340px);
+  }
 }
