@@ -1,103 +1,13 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
   \*************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Beastly&family=Varela+Round&display=swap);"]);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: rgba(226, 224, 224, 0.555);\r\n  height: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.header-container {\r\n  height: 70px;\r\n  margin-top: -130px;\r\n  position: fixed;\r\n  width: 100%;\r\n  background-color: rgb(58, 150, 150);\r\n}\r\n\r\n.navigation {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.nav-list {\r\n  display: none;\r\n  cursor: pointer;\r\n  margin-top: 25px;\r\n  font-size: 20px;\r\n  font-family: 'Varela Round', sans-serif;\r\n  width: 400px;\r\n  list-style: none;\r\n  justify-content: space-around;\r\n}\r\n\r\n.menu-bars {\r\n  cursor: pointer;\r\n  margin-top: 20px;\r\n  font-size: 30px;\r\n}\r\n\r\n.my-logo {\r\n  font-size: 30px;\r\n  color: rgb(185, 18, 18);\r\n  margin-left: 10px;\r\n  margin-top: 15px;\r\n  text-decoration: none;\r\n  font-family: 'Rubik Beastly', cursive;\r\n}\r\n\r\n.image {\r\n  width: 90%;\r\n  height: 100%;\r\n  margin-left: 23px;\r\n}\r\n\r\n.home-page {\r\n  justify-content: center;\r\n  margin-left: 20px;\r\n  width: 90%;\r\n  display: grid;\r\n  gap: 40px;\r\n  position: static;\r\n  margin-top: 130px;\r\n  margin-bottom: 100px;\r\n}\r\n\r\n.card-container {\r\n  box-shadow: rgba(0, 0, 0, 0.678) 0 4px 18px 4px;\r\n  border-radius: 40px 0;\r\n  background-color: rgb(58, 150, 150);\r\n  padding-top: 24px;\r\n  padding-bottom: 18px;\r\n}\r\n\r\nh3 {\r\n  height: 40px;\r\n  font-size: 22px;\r\n  font-weight: 100;\r\n  text-align: center;\r\n  font-family: 'Varela Round', sans-serif;\r\n}\r\n\r\n.like-comment {\r\n  font-family: 'Varela Round', sans-serif;\r\n  margin: -10px 60px 0;\r\n  width: 75%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  font-size: 20px;\r\n}\r\n\r\n#text {\r\n  margin-top: -5px;\r\n  height: 0;\r\n}\r\n\r\n.fa-comment {\r\n  margin-left: 30px;\r\n}\r\n\r\n.comment {\r\n  justify-content: center;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.love {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\nfooter {\r\n  width: 100%;\r\n  background-color: rgb(21, 73, 73);\r\n  bottom: 0;\r\n  position: fixed;\r\n  font-family: 'Varela Round', sans-serif;\r\n}\r\n\r\n.my-footer {\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  .nav-list {\r\n    display: flex;\r\n    font-weight: 100;\r\n  }\r\n\r\n  .menu-bars {\r\n    display: none;\r\n  }\r\n\r\n  .image {\r\n    width: 90%;\r\n    height: 90%;\r\n    margin-left: 23px;\r\n  }\r\n\r\n  .art-picture {\r\n    height: 300px;\r\n  }\r\n\r\n  .title {\r\n    margin-left: 6px;\r\n    width: 330px;\r\n    text-align: center;\r\n    margin-bottom: 40px;\r\n  }\r\n\r\n  .home-page {\r\n    grid-template-columns: repeat(3, 340px);\r\n  }\r\n}\r\n", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/***/ ((module) => {
-
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (cssWithMappingToString) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], " {").concat(content, "}");
-      }
-
-      return content;
-    }).join("");
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === "string") {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, ""]];
-    }
-
-    var alreadyImportedModules = {};
-
-    if (dedupe) {
-      for (var i = 0; i < this.length; i++) {
-        // eslint-disable-next-line prefer-destructuring
-        var id = this[i][0];
-
-        if (id != null) {
-          alreadyImportedModules[id] = true;
-        }
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = [].concat(modules[_i]);
-
-      if (dedupe && alreadyImportedModules[item[0]]) {
-        // eslint-disable-next-line no-continue
-        continue;
-      }
-
-      if (mediaQuery) {
-        if (!item[2]) {
-          item[2] = mediaQuery;
-        } else {
-          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
-        }
-      }
-
-      list.push(item);
-    }
-  };
-
-  return list;
-};
+throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nError: Can't resolve '/src/images/bgimg1.jpg' in 'F:\\Microverse\\API-based-WebApp\\src'\n    at finishWithoutResolve (F:\\Microverse\\API-based-WebApp\\node_modules\\enhanced-resolve\\lib\\Resolver.js:293:18)\n    at F:\\Microverse\\API-based-WebApp\\node_modules\\enhanced-resolve\\lib\\Resolver.js:362:15\n    at F:\\Microverse\\API-based-WebApp\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (F:\\Microverse\\API-based-WebApp\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at F:\\Microverse\\API-based-WebApp\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (F:\\Microverse\\API-based-WebApp\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at F:\\Microverse\\API-based-WebApp\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:87:43\n    at F:\\Microverse\\API-based-WebApp\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (F:\\Microverse\\API-based-WebApp\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at F:\\Microverse\\API-based-WebApp\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5");
 
 /***/ }),
 
@@ -107,6 +17,7 @@ module.exports = function (cssWithMappingToString) {
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -124,6 +35,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/style.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
       
       
@@ -145,12 +60,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()((_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6___default()), options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6___default()) && (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6___default().locals) ? (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6___default().locals) : undefined);
 
 
 /***/ }),
@@ -161,6 +76,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDom = [];
@@ -267,6 +183,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -315,6 +232,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -335,6 +253,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -356,6 +275,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -413,6 +333,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -446,7 +367,7 @@ module.exports = styleTagTransform;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
+/******/ 			// no module.id needed
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
@@ -501,51 +422,204 @@ module.exports = styleTagTransform;
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 
+// import { countElements } from './comments';
 
-const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2018-07-15&end_date=2018-07-20';
-const displayData = document.querySelector('body > main > section');
+const getLink = 'https://api.nasa.gov/planetary/apod?api_key=4SuCuNxM0J6w1FmjQokTcawsubomH7aV4ep60VgT&start_date=2021-03-16&end_date=2021-03-21';
+const datesForPopup = ['2021-03-16', '2021-03-17', '2021-03-18', '2021-03-19', '2021-03-20', '2021-03-21'];
+const getImage = (num) => `https://api.nasa.gov/planetary/apod?api_key=4SuCuNxM0J6w1FmjQokTcawsubomH7aV4ep60VgT&date=${datesForPopup[num]}`;
+const main = document.getElementById('addToScreen');
+const starLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/likes';
+const commentLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments';
 
-const getData = async (link) => {
-  const response = await fetch(link);
+const getScores = async (url) => {
+  const response = await fetch(url);
   return response.json();
 };
 
-const displayDataTable = (image, title) => {
-  const cardArt = document.createElement('div');
-  cardArt.classList.add('card-container');
-  cardArt.innerHTML = `
-  <div class="art-picture">
-    <img src="${image}" class="image" alt="artwork">
-  </div>
-  <div class="fix-bottom">
-  <div class="title">
-    <h3>${title}</h3>
-  </div>
-  <div class="like-comment">
-  <a class="love"><i class="far fa-heart"></i><small>0 likes</small></a>
-  <a class="comment"><i class="far fa-comment"></i><p id="text">comment</p></a>
+const postScores = async (url, data) => {
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  });
+  return response;
+};
+
+function addToScoreBord(img, title, index) {
+  const div = document.createElement('div');
+  div.classList.add('cardContainer');
+  div.innerHTML = `
+        <div class="imgcontainer">
+          <img src="${img}" alt="">
+        </div>
+        <div class="title">
+          <h3>${title}</h3>
+          <a href="#" id="${index}star" class="stars"><i class="far fa-star"></i></a>
+        </div>
+        <small></small>
+        <input type="button" value="Comments" id="${index}" class="comment">
+        `;
+  main.appendChild(div);
+}
+
+function closePopup(target) {
+  target.parentElement.parentElement.parentElement.remove();
+}
+
+function countElements(elem) {
+  return elem.childElementCount;
+}
+
+function displayPopup(img, title, description, id) {
+  const popupDiv = document.createElement('div');
+  popupDiv.classList.add('popupWindow');
+  popupDiv.innerHTML = `
+  <div class="popupContainer">
+   <span><i class="fas fa-times" id="close"></i>
+   </span>
+   <div class="header-popup">
+     <img src="${img}" class="popup-image" alt="close-icon">
+   </div>
+   <h2>${title}</h2>
+   <p class="description">${description}</p>
+   <div>
+       <h2 class="comments">Comments</h2>
+       <ul id="comment-link">
+       </ul>
+     </div>
+     <form id="${id}form" action="post">
+       <input type="text" placeholder="Your Name" id="userName">
+       <textarea name="text" id="insights" cols="30" rows="10" placeholder="Your insights"></textarea>
+       <input type="button" value="Comment" id="popupComment">
+     </form>
    </div>
    </div>`;
-  displayData.appendChild(cardArt);
-};
+  main.appendChild(popupDiv);
+}
 
-const displayFromApi = () => {
-  getData(generateUrl)
+function countItems() {
+  const itemCount = document.querySelector('#item-count');
+  const section = document.querySelector('#addToScreen');
+  itemCount.firstChild.innerHTML = `APOD ${countElements(section)}`;
+}
+
+function countComments() {
+  const commentCount = document.querySelector('#comment-link');
+  commentCount.previousElementSibling.innerHTML = `Comments ${countElements(commentCount)}`;
+}
+
+function showComment(user, str) {
+  const ulCont = document.querySelector('#comment-link');
+  const li = document.createElement('li');
+  li.innerHTML = `${user} : ${str}`;
+  ulCont.appendChild(li);
+}
+
+function displayComments(id) {
+  const showProper = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments?item_id=${id}`;
+  getScores(showProper)
+    .then((data) => data.forEach((elem) => showComment(elem.username, elem.comment)))
+    .then(() => countComments())
+    .catch(() => showComment('no', 'comments yet'));
+}
+
+function addComment(id, user, str) {
+  const data = {
+    item_id: id,
+    username: user,
+    comment: str,
+  };
+  postScores(commentLink, data)
     .then((data) => {
-      displayData.innerHTML = '';
-      data.forEach((element) => displayDataTable(element.hdurl, element.title));
-    });
+      if (data.status === 201) {
+        showComment(user, str);
+      }
+    })
+    .catch(() => showComment('no', 'comments yet'));
+}
+
+function displayImage(id) {
+  getScores(getImage(id))
+    .then((data) => displayPopup(data.hdurl, data.title, data.explanation, id))
+    .then(() => {
+      displayComments(id);
+      const closeBtn = document.getElementById('close');
+      closeBtn.addEventListener('click', () => {
+        closePopup(closeBtn);
+      });
+    })
+    .catch((err) => console.log(err));
+}
+
+const splitStars = (id, stars) => {
+  const small = document.getElementById(id);
+  small.parentElement.nextElementSibling.innerHTML = `${stars} stars`;
 };
 
-displayFromApi();
+function displayStars() {
+  getScores(starLink)
+    .then((data) => data.forEach((elem, i) => {
+      if (i < countElements(main)) {
+        splitStars(elem.item_id, elem.likes);
+      }
+    }))
+    .catch((err) => console.log(err));
+}
+
+function displayScores() {
+  getScores(getLink)
+    .then((data) => data.forEach((elem, index) => addToScoreBord(elem.hdurl, elem.title, index)))
+    .then(() => {
+      displayStars();
+      countItems();
+    })
+    .catch((err) => console.log(err));
+}
+
+function giveStar(id, stars) {
+  const data = { item_id: id };
+  postScores(starLink, data)
+    .then((data) => {
+      if (data.status === 201) {
+        splitStars(id, stars);
+      }
+    })
+    .catch((err) => console.log(err));
+}
+
+displayScores();
+
+main.addEventListener('click', (e) => {
+  if (e.target.classList.contains('fa-star')) {
+    e.preventDefault();
+    const sC = parseInt(e.target.parentElement.parentElement.nextElementSibling.textContent, 10);
+    const stars = sC + 1;
+    giveStar(e.target.parentElement.id, stars);
+  }
+  if (e.target.classList.contains('comment')) {
+    displayImage(parseInt(e.target.id, 10));
+  }
+  if (e.target.id === 'popupComment') {
+    e.preventDefault();
+    const id = (e.target.parentElement.id).match(/[0-9]/g);
+    const userName = document.getElementById('userName');
+    const comment = document.getElementById('insights');
+    addComment(id, userName.value, comment.value);
+    userName.value = '';
+    comment.value = '';
+  }
+});
 
 })();
 
