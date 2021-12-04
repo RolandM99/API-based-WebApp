@@ -122,6 +122,38 @@ footer {
   justify-content: center;
 }
 
+form {
+  margin-top: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 350px;
+}
+
+.commentaire {
+  margin-top: 200px;
+  margin-bottom: -250px;
+  margin-left: 250px;
+}
+
+.fa-times {
+  display: flex;
+  justify-content: right;
+  font-size: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
+}
+
+input[type=text] {
+  width: 400px;
+  height: 40px;
+}
+
+#comment-area {
+  width: 400px;
+}
+
 input[type=button] {
   width: 60%;
   margin-bottom: 5%;
@@ -139,6 +171,20 @@ input[type=button]:hover {
   transform: var(--scale);
   color: var(--white-color);
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+#comment-btn {
+  background-color: rgb(185, 18, 18);
+  height: 40px;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.main-popup {
+  width: 1100px;
+  height: 800px;
+  background-color: rgb(17, 71, 71);
+  margin-top: -1000px;
 }
 
 @media screen and (min-width: 768px) {

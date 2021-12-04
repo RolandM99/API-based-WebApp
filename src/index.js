@@ -1,9 +1,9 @@
 import './style.css';
 import commentPopup from './popup.js';
 
-const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=4SuCuNxM0J6w1FmjQokTcawsubomH7aV4ep60VgT&start_date=2021-03-16&end_date=2021-03-21';
+const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2021-03-16&end_date=2021-03-21';
 const datesForPopup = ['2018-07-16', '2018-07-17', '2018-07-18', '2018-07-19', '2018-07-20', '2021-03-21'];
-const generateImage = (date) => `https://api.nasa.gov/planetary/apod?api_key=4SuCuNxM0J6w1FmjQokTcawsubomH7aV4ep60VgT&date=${datesForPopup[date]}`;
+const generateImage = (date) => `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${datesForPopup[date]}`;
 const displayData = document.querySelector('body > main > section');
 const starLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/likes/';
 const commentLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments';
