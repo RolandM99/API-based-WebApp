@@ -39,7 +39,7 @@ const displayDataTable = (image, title, index) => {
     <div class="my-love">
       <a class="love" id="${index}like"><i class="far fa-heart"></i></a>
     </div>
-     <small id="small"></small>
+     <small id="small">${index}likes</small>
     <a class="comment" id="${index}"><i class="far fa-comment"></i><p id="text">comment</p></a>
    </div>
    </div>`;
@@ -103,13 +103,13 @@ const displayImagePopup = (id) => {
       closeBtn.addEventListener('click', () => {
         closeDisplayPop(closeBtn);
       });
-    })
-    .catch((error) => console.log(error));
+    });
+  // .catch((error) => console.log(error));
 };
 
 const clickLove = (id, likes) => {
-  const small = document.getElementById('small');
-  small.innerHTML = `${likes} likes`;
+  const small = document.getElementById(id);
+  small.parentElement.nextElementSibling.innerHTML = `${likes} likes`;
 };
 
 function displayLike() {

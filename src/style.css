@@ -90,7 +90,7 @@ h3 {
 }
 
 #text {
-  margin-top: -5px;
+  margin-top: 5px;
   height: 0;
 }
 
@@ -132,6 +132,7 @@ form {
 }
 
 #small {
+  font-size: 20px;
   margin-top: 32px;
   margin-left: -158px;
 }
