@@ -110,7 +110,9 @@ h3 {
 }
 
 .img {
-  width: 500px;
+  margin-left: 150px;
+  width: 800px;
+  height: 800px;
 }
 
 footer {
@@ -127,7 +129,7 @@ footer {
 }
 
 form {
-  margin-top: 300px;
+  margin-top: 280px;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -142,7 +144,7 @@ form {
 }
 
 .commentaire {
-  margin-top: 200px;
+  margin-top: 60px;
   margin-bottom: -250px;
   margin-left: 250px;
 }
@@ -190,9 +192,15 @@ input[type=button]:hover {
   margin-left: 80px;
 }
 
+.description {
+  font-size: 22px;
+  font-weight: 200;
+  font-family: 'Varela Round', sans-serif;
+}
+
 .main-popup {
   width: 1100px;
-  height: 1300px;
+  height: 1650px;
   background-color: rgb(17, 71, 71);
   margin-top: -1000px;
 }
