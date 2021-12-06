@@ -18,7 +18,7 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1. First clone the project with the command git clone https://github.com/RolandM99/API-based-WebApp.git
+1. First clone the projecth the command git clone https://github.com/RolandM99/API-based-WebApp.git
 2. Then run the command `npm install` in your terminal to install all packages
 3. run `npm run build` to build locally your application
 4. run `npm start` for starting the project in your browser
