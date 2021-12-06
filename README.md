@@ -1,6 +1,7 @@
 # API Based WebApp
 
-> This project is an web apllication based on an external API.
+> This project is a web apllication based on an external API which in this case is NASA API portal. This website display astronomy captured's picture of the Day. 
+# Mobile view :
 
 ![screenshot](./screenshot.png)
 
@@ -11,7 +12,7 @@
 
 ## Live Demo
 
-[In progress live link](in progress)
+[In progress live link](https://rolandm99.github.io/API-based-WebApp/dist)
 
 
 ## Getting Started
