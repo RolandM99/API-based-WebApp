@@ -131,6 +131,11 @@ form {
   margin-left: 350px;
 }
 
+#small {
+  margin-top: 32px;
+  margin-left: -158px;
+}
+
 .commentaire {
   margin-top: 200px;
   margin-bottom: -250px;

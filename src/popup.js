@@ -3,9 +3,10 @@ export default function commentPopup(image, title, text, id) {
   const commentDiv = document.createElement('div');
   commentDiv.classList.add('main-popup');
   commentDiv.innerHTML = `
+       <div class="popup-container">
         <span id="close-btn"><i class="fal fa-times"></i></span>
         <div class="popup-image">
-           <img src="${image}" class="img" alt="close-icon">
+           <img src="${image}" class="img" alt="art-image">
         </div>
         <h2>${title}</h2>
        <p class="description">${text}</p>

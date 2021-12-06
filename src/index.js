@@ -1,9 +1,9 @@
 import './style.css';
 import commentPopup from './popup.js';
 
-const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2021-03-16&end_date=2021-03-21';
+const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=lbhIC5GaLFk8aa2ltHB7NCsAMv0h7zAXHEK2rKV4&start_date=2021-03-16&end_date=2021-03-21';
 const datesForPopup = ['2018-07-16', '2018-07-17', '2018-07-18', '2018-07-19', '2018-07-20', '2021-03-21'];
-const generateImage = (date) => `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${datesForPopup[date]}`;
+const generateImage = (date) => `https://api.nasa.gov/planetary/apod?api_key=lbhIC5GaLFk8aa2ltHB7NCsAMv0h7zAXHEK2rKV4&date=${datesForPopup[date]}`;
 const displayData = document.querySelector('body > main > section');
 const starLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/likes/';
 const commentLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments';
@@ -36,8 +36,11 @@ const displayDataTable = (image, title, index) => {
     <h3>${title}</h3>
   </div>
   <div class="like-comment">
-  <a class="love" id="${index}like"><i class="far fa-heart"></i><small>0 likes</small></a>
-  <a class="comment" id="${index}"><i class="far fa-comment"></i><p id="text">comment</p></a>
+    <div class="my-love">
+      <a class="love" id="${index}like"><i class="far fa-heart"></i></a>
+    </div>
+     <small id="small"></small>
+    <a class="comment" id="${index}"><i class="far fa-comment"></i><p id="text">comment</p></a>
    </div>
    </div>`;
   displayData.appendChild(cardArt);
@@ -93,19 +96,20 @@ function addComment(id, user, str) {
 
 const displayImagePopup = (id) => {
   getData(generateImage(id))
-    .then((data) => commentPopup(data.hdurl, data.title, data.explantion, id))
+    .then((data) => commentPopup(data.hdurl, data.title, data.explanation, id))
     .then(() => {
       displayComments(id);
       const closeBtn = document.getElementById('close-btn');
       closeBtn.addEventListener('click', () => {
         closeDisplayPop(closeBtn);
       });
-    });
+    })
+    .catch((error) => console.log(error));
 };
 
-const clickLove = (id, love) => {
-  const clickLike = document.getElementById(id);
-  clickLike.parentElement.nextElementSibling.innerHTML = `${love} likes`;
+const clickLove = (id, likes) => {
+  const small = document.getElementById('small');
+  small.innerHTML = `${likes} likes`;
 };
 
 function displayLike() {
