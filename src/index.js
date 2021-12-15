@@ -3,7 +3,7 @@ import commentPopup from './popup.js';
 
 const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=lbhIC5GaLFk8aa2ltHB7NCsAMv0h7zAXHEK2rKV4&start_date=2021-11-22&end_date=2021-11-27';
 const datesForPopup = ['2021-11-22', '2021-11-23', '2021-11-24', '2021-11-25', '2021-11-26', '2021-11-27'];
-const generateImage = () => `https://api.nasa.gov/planetary/apod?api_key=lbhIC5GaLFk8aa2ltHB7NCsAMv0h7zAXHEK2rKV4&date=${datesForPopup[1]}`;
+const generateImage = () => `https://api.nasa.gov/planetary/apod?api_key=lbhIC5GaLFk8aa2ltHB7NCsAMv0h7zAXHEK2rKV4&date=${datesForPopup[2]}`;
 const displayData = document.querySelector('body > main > section');
 const starLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/likes/';
 const commentLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments';
@@ -39,8 +39,8 @@ const displayDataTable = (image, title, index) => {
     <div class="my-love">
       <a class="love" id="${index}like"><i class="far fa-heart"></i></a>
     </div>
-     <small id="small">${index}likes</small>
-    <a class="comment" id="${index}"><i class="far fa-comment"></i><p id="text">comment</p></a>
+     <small id="small">${index} likes</small>
+    <a class="comment"><i class="far fa-comment"></i><p id="text">comment</p></a>
    </div>
    </div>`;
   displayData.appendChild(cardArt);
@@ -61,7 +61,7 @@ const countItems = () => {
 };
 
 const countComment = () => {
-  const commentCount = document.getElementById('comment-container');
+  const commentCount = document.querySelector('#comment-container');
   commentCount.previousElementSibling.innerHTML = `Comments ${countElements(commentCount)}`;
 };
 
@@ -76,7 +76,8 @@ function displayComments(id) {
   const showProper = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments?item_id=${id}`;
   getData(showProper)
     .then((data) => data.forEach((elem) => showComment(elem.username, elem.comment)))
-    .then(() => countComment());
+    .then(() => countComment())
+    .catch(() => showComment('no', 'comments yet'));
 }
 
 function addComment(id, user, str) {
@@ -91,7 +92,8 @@ function addComment(id, user, str) {
       if (data.status === 201) {
         showComment(user, str);
       }
-    });
+    })
+    .catch(() => showComment('no', 'comments yet'));
 }
 
 const displayImagePopup = (id) => {
@@ -104,7 +106,7 @@ const displayImagePopup = (id) => {
         closeDisplayPop(closeBtn);
       });
     });
-  // .catch((error) => console.log(error));
+  //  .catch((error) => console.log(error));
 };
 
 const clickLove = (id, likes) => {
@@ -114,7 +116,12 @@ const clickLove = (id, likes) => {
 
 function displayLike() {
   getData(starLink)
-    .then((data) => data.forEach((elem) => clickLove(elem.item_id, elem.likes)));
+    .then((data) => data.forEach((elem, i) => {
+      if (i < countElements(displayData)) {
+        clickLove(elem.item_id, elem.likes);
+      }
+    }))
+    .catch((err) => console.log(err));
 }
 
 function displayFromApi() {
@@ -124,14 +131,15 @@ function displayFromApi() {
       displayLike();
       countItems();
     });
+  // .catch((err) => console.log(err));
 }
 
-function giveLikes(id, stars) {
+function giveLikes(id, likes) {
   const data = { item_id: id };
   postData(starLink, data)
     .then((data) => {
       if (data.status === 201) {
-        clickLove(id, stars);
+        clickLove(id, likes);
       }
     });
 }

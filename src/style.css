@@ -111,7 +111,7 @@ h3 {
 
 .img {
   margin-left: 150px;
-  width: 800px;
+  width: 86%;
   height: 800px;
 }
 
@@ -129,7 +129,7 @@ footer {
 }
 
 form {
-  margin-top: 280px;
+  margin-top: 80px;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -144,9 +144,15 @@ form {
 }
 
 .commentaire {
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: -250px;
   margin-left: 250px;
+}
+
+#comment-container {
+  margin-top: 260px;
+  text-align: center;
+  margin-left: -170px;
 }
 
 .fa-times {
@@ -193,13 +199,18 @@ input[type=button]:hover {
 }
 
 .description {
-  font-size: 22px;
+  margin-left: 20px;
+  font-size: 18px;
   font-weight: 200;
   font-family: 'Varela Round', sans-serif;
 }
 
+.pop-title {
+  text-align: center;
+}
+
 .main-popup {
-  width: 1100px;
+  width: 90%;
   height: 1650px;
   background-color: rgb(17, 71, 71);
   margin-top: -1000px;
@@ -219,6 +230,14 @@ input[type=button]:hover {
     width: 90%;
     height: 90%;
     margin-left: 23px;
+  }
+
+  .main-popup {
+    width: 1100px;
+  }
+
+  .img {
+    width: 800px;
   }
 
   .art-picture {

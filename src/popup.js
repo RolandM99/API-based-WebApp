@@ -8,7 +8,7 @@ export default function commentPopup(image, title, text, id) {
         <div class="popup-image">
            <img src="${image}" class="img" alt="art-image">
         </div>
-        <h2>${title}</h2>
+        <h2 class="pop-title">${title}</h2>
        <p class="description">${text}</p>
        <div>
            <h2 class="commentaire">Comments</h2>
@@ -16,7 +16,7 @@ export default function commentPopup(image, title, text, id) {
            </ul>
          </div>
          <form id="${id}form" action="POST">
-           <input type="text" placeholder="Your Name">
+           <input type="text" id="username" placeholder="Your Name">
            <textarea name="text" id="comment-area" cols="30" rows="10" placeholder="Write your insight here"></textarea>
            <input type="button" value="Comment" id="comment-btn">
          </form>
