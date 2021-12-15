@@ -2,7 +2,7 @@
 
 > This project is a web apllication based on an external API which in this case is NASA API portal. This website display astronomy captured's picture of the Day. I should work in pair-programming in order to finish all requirements but I worked in solo. The project is not yet finish but I'm still working on it in order to reach all requirements in the Kanban card.
 
-# Mobile view :
+### Mobile view :
 <br>
 
 ![screenshot](./screenshot.png)
