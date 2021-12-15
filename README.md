@@ -2,13 +2,11 @@
 
 > This project is a web apllication based on an external API which in this case is NASA API portal. This website display astronomy captured's picture of the Day. Users can like, see details about pictures or astronomy artwork and comment.
 
-### Screenshoot:
-
+## 1. Desktop View:
 ![screenshot](./desktop.PNG)
 
-### Mobile View:
-
-![screenshot](./screenshot.png)
+## 2.Mobile View:
+![screenshot](./screenshot.PNG)
 
 ## Built With
 
