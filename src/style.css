@@ -209,6 +209,12 @@ input[type=button]:hover {
   text-align: center;
 }
 
+#item-count a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
 .main-popup {
   width: 90%;
   height: 1650px;
