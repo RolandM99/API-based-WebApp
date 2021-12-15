@@ -90,7 +90,7 @@ h3 {
 }
 
 #text {
-  margin-top: -5px;
+  margin-top: 5px;
   height: 0;
 }
 
@@ -109,6 +109,12 @@ h3 {
   flex-direction: column;
 }
 
+.img {
+  margin-left: 150px;
+  width: 86%;
+  height: 800px;
+}
+
 footer {
   width: 100%;
   background-color: rgb(21, 73, 73);
@@ -120,6 +126,100 @@ footer {
 .my-footer {
   display: flex;
   justify-content: center;
+}
+
+form {
+  margin-top: 80px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 350px;
+}
+
+#small {
+  font-size: 20px;
+  margin-top: 32px;
+  margin-left: -158px;
+}
+
+.commentaire {
+  margin-top: 30px;
+  margin-bottom: -250px;
+  margin-left: 250px;
+}
+
+#comment-container {
+  margin-top: 260px;
+  text-align: center;
+  margin-left: -170px;
+}
+
+.fa-times {
+  display: flex;
+  justify-content: right;
+  font-size: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
+}
+
+input[type=text] {
+  width: 400px;
+  height: 40px;
+}
+
+#comment-area {
+  width: 400px;
+}
+
+input[type=button] {
+  width: 60%;
+  margin-bottom: 5%;
+  padding: 5px 10px;
+  background-color: var(--white-color);
+  color: rgba(0, 0, 0, 0.75);
+  transition: var(--transition);
+  font-weight: var(--font-600);
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[type=button]:hover {
+  transform: var(--scale);
+  color: var(--white-color);
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#comment-btn {
+  background-color: rgb(185, 18, 18);
+  height: 40px;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.description {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.pop-title {
+  text-align: center;
+}
+
+#item-count a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.main-popup {
+  width: 90%;
+  height: 1650px;
+  background-color: rgb(17, 71, 71);
+  margin-top: -1000px;
 }
 
 @media screen and (min-width: 768px) {
@@ -136,6 +236,14 @@ footer {
     width: 90%;
     height: 90%;
     margin-left: 23px;
+  }
+
+  .main-popup {
+    width: 1100px;
+  }
+
+  .img {
+    width: 800px;
   }
 
   .art-picture {

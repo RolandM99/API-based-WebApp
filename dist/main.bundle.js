@@ -19,7 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Beastly&family=Varela+Round&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: rgba(226, 224, 224, 0.555);\r\n  height: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.header-container {\r\n  height: 70px;\r\n  margin-top: -130px;\r\n  position: fixed;\r\n  width: 100%;\r\n  background-color: rgb(58, 150, 150);\r\n}\r\n\r\n.navigation {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.nav-list {\r\n  display: none;\r\n  cursor: pointer;\r\n  margin-top: 25px;\r\n  font-size: 20px;\r\n  font-family: 'Varela Round', sans-serif;\r\n  width: 400px;\r\n  list-style: none;\r\n  justify-content: space-around;\r\n}\r\n\r\n.menu-bars {\r\n  cursor: pointer;\r\n  margin-top: 20px;\r\n  font-size: 30px;\r\n}\r\n\r\n.my-logo {\r\n  font-size: 30px;\r\n  color: rgb(185, 18, 18);\r\n  margin-left: 10px;\r\n  margin-top: 15px;\r\n  text-decoration: none;\r\n  font-family: 'Rubik Beastly', cursive;\r\n}\r\n\r\n.image {\r\n  width: 90%;\r\n  height: 100%;\r\n  margin-left: 23px;\r\n}\r\n\r\n.home-page {\r\n  justify-content: center;\r\n  margin-left: 20px;\r\n  width: 90%;\r\n  display: grid;\r\n  gap: 40px;\r\n  position: static;\r\n  margin-top: 130px;\r\n  margin-bottom: 100px;\r\n}\r\n\r\n.card-container {\r\n  box-shadow: rgba(0, 0, 0, 0.678) 0 4px 18px 4px;\r\n  border-radius: 40px 0;\r\n  background-color: rgb(58, 150, 150);\r\n  padding-top: 24px;\r\n  padding-bottom: 18px;\r\n}\r\n\r\nh3 {\r\n  height: 40px;\r\n  font-size: 22px;\r\n  font-weight: 100;\r\n  text-align: center;\r\n  font-family: 'Varela Round', sans-serif;\r\n}\r\n\r\n.like-comment {\r\n  font-family: 'Varela Round', sans-serif;\r\n  margin: -10px 60px 0;\r\n  width: 75%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  font-size: 20px;\r\n}\r\n\r\n#text {\r\n  margin-top: -5px;\r\n  height: 0;\r\n}\r\n\r\n.fa-comment {\r\n  margin-left: 30px;\r\n}\r\n\r\n.comment {\r\n  justify-content: center;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.love {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\nfooter {\r\n  width: 100%;\r\n  background-color: rgb(21, 73, 73);\r\n  bottom: 0;\r\n  position: fixed;\r\n  font-family: 'Varela Round', sans-serif;\r\n}\r\n\r\n.my-footer {\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  .nav-list {\r\n    display: flex;\r\n    font-weight: 100;\r\n  }\r\n\r\n  .menu-bars {\r\n    display: none;\r\n  }\r\n\r\n  .image {\r\n    width: 90%;\r\n    height: 90%;\r\n    margin-left: 23px;\r\n  }\r\n\r\n  .art-picture {\r\n    height: 300px;\r\n  }\r\n\r\n  .title {\r\n    margin-left: 6px;\r\n    width: 330px;\r\n    text-align: center;\r\n    margin-bottom: 40px;\r\n  }\r\n\r\n  .home-page {\r\n    grid-template-columns: repeat(3, 340px);\r\n  }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: rgba(226, 224, 224, 0.555);\r\n  height: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.header-container {\r\n  height: 70px;\r\n  margin-top: -130px;\r\n  position: fixed;\r\n  width: 100%;\r\n  background-color: rgb(58, 150, 150);\r\n}\r\n\r\n.navigation {\r\n  width: 100%;\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.nav-list {\r\n  display: none;\r\n  cursor: pointer;\r\n  margin-top: 25px;\r\n  font-size: 20px;\r\n  font-family: 'Varela Round', sans-serif;\r\n  width: 400px;\r\n  list-style: none;\r\n  justify-content: space-around;\r\n}\r\n\r\n.menu-bars {\r\n  cursor: pointer;\r\n  margin-top: 20px;\r\n  font-size: 30px;\r\n}\r\n\r\n.my-logo {\r\n  font-size: 30px;\r\n  color: rgb(185, 18, 18);\r\n  margin-left: 10px;\r\n  margin-top: 15px;\r\n  text-decoration: none;\r\n  font-family: 'Rubik Beastly', cursive;\r\n}\r\n\r\n.image {\r\n  width: 90%;\r\n  height: 100%;\r\n  margin-left: 23px;\r\n}\r\n\r\n.home-page {\r\n  justify-content: center;\r\n  margin-left: 20px;\r\n  width: 90%;\r\n  display: grid;\r\n  gap: 40px;\r\n  position: static;\r\n  margin-top: 130px;\r\n  margin-bottom: 100px;\r\n}\r\n\r\n.card-container {\r\n  box-shadow: rgba(0, 0, 0, 0.678) 0 4px 18px 4px;\r\n  border-radius: 40px 0;\r\n  background-color: rgb(58, 150, 150);\r\n  padding-top: 24px;\r\n  padding-bottom: 18px;\r\n}\r\n\r\nh3 {\r\n  height: 40px;\r\n  font-size: 22px;\r\n  font-weight: 100;\r\n  text-align: center;\r\n  font-family: 'Varela Round', sans-serif;\r\n}\r\n\r\n.like-comment {\r\n  font-family: 'Varela Round', sans-serif;\r\n  margin: -10px 60px 0;\r\n  width: 75%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  font-size: 20px;\r\n}\r\n\r\n#text {\r\n  margin-top: 5px;\r\n  height: 0;\r\n}\r\n\r\n.fa-comment {\r\n  margin-left: 30px;\r\n}\r\n\r\n.comment {\r\n  justify-content: center;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.love {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.img {\r\n  margin-left: 150px;\r\n  width: 800px;\r\n  height: 800px;\r\n}\r\n\r\nfooter {\r\n  width: 100%;\r\n  background-color: rgb(21, 73, 73);\r\n  bottom: 0;\r\n  position: fixed;\r\n  font-family: 'Varela Round', sans-serif;\r\n}\r\n\r\n.my-footer {\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\nform {\r\n  margin-top: 280px;\r\n  width: 400px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 30px;\r\n  margin-left: 350px;\r\n}\r\n\r\n#small {\r\n  font-size: 20px;\r\n  margin-top: 32px;\r\n  margin-left: -158px;\r\n}\r\n\r\n.commentaire {\r\n  margin-top: 60px;\r\n  margin-bottom: -250px;\r\n  margin-left: 250px;\r\n}\r\n\r\n.fa-times {\r\n  display: flex;\r\n  justify-content: right;\r\n  font-size: 40px;\r\n  margin-right: 40px;\r\n  margin-top: 25px;\r\n}\r\n\r\ninput[type=text] {\r\n  width: 400px;\r\n  height: 40px;\r\n}\r\n\r\n#comment-area {\r\n  width: 400px;\r\n}\r\n\r\ninput[type=button] {\r\n  width: 60%;\r\n  margin-bottom: 5%;\r\n  padding: 5px 10px;\r\n  background-color: var(--white-color);\r\n  color: rgba(0, 0, 0, 0.75);\r\n  transition: var(--transition);\r\n  font-weight: var(--font-600);\r\n  border: none;\r\n  cursor: pointer;\r\n  border-radius: 3px;\r\n}\r\n\r\ninput[type=button]:hover {\r\n  transform: var(--scale);\r\n  color: var(--white-color);\r\n  background-color: rgba(0, 0, 0, 0.75);\r\n}\r\n\r\n#comment-btn {\r\n  background-color: rgb(185, 18, 18);\r\n  height: 40px;\r\n  font-size: 20px;\r\n  margin-left: 80px;\r\n}\r\n\r\n.description {\r\n  font-size: 22px;\r\n  font-weight: 200;\r\n  font-family: 'Varela Round', sans-serif;\r\n}\r\n\r\n.main-popup {\r\n  width: 1100px;\r\n  height: 1650px;\r\n  background-color: rgb(17, 71, 71);\r\n  margin-top: -1000px;\r\n}\r\n\r\n@media screen and (min-width: 768px) {\r\n  .nav-list {\r\n    display: flex;\r\n    font-weight: 100;\r\n  }\r\n\r\n  .menu-bars {\r\n    display: none;\r\n  }\r\n\r\n  .image {\r\n    width: 90%;\r\n    height: 90%;\r\n    margin-left: 23px;\r\n  }\r\n\r\n  .art-picture {\r\n    height: 300px;\r\n  }\r\n\r\n  .title {\r\n    margin-left: 6px;\r\n    width: 330px;\r\n    text-align: center;\r\n    margin-bottom: 40px;\r\n  }\r\n\r\n  .home-page {\r\n    margin-left: 75px;\r\n    grid-template-columns: repeat(3, 340px);\r\n  }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -430,6 +430,45 @@ function styleTagTransform(css, style) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/popup.js":
+/*!**********************!*\
+  !*** ./src/popup.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ commentPopup)
+/* harmony export */ });
+const displayData = document.querySelector('body > main > section');
+function commentPopup(image, title, text, id) {
+  const commentDiv = document.createElement('div');
+  commentDiv.classList.add('main-popup');
+  commentDiv.innerHTML = `
+       <div class="popup-container">
+        <span id="close-btn"><i class="fal fa-times"></i></span>
+        <div class="popup-image">
+           <img src="${image}" class="img" alt="art-image">
+        </div>
+        <h2>${title}</h2>
+       <p class="description">${text}</p>
+       <div>
+           <h2 class="commentaire">Comments</h2>
+           <ul id="comment-container">
+           </ul>
+         </div>
+         <form id="${id}form" action="POST">
+           <input type="text" placeholder="Your Name">
+           <textarea name="text" id="comment-area" cols="30" rows="10" placeholder="Write your insight here"></textarea>
+           <input type="button" value="Comment" id="comment-btn">
+         </form>
+       </div>
+        `;
+  displayData.appendChild(commentDiv);
+}
+
 /***/ })
 
 /******/ 	});
@@ -508,17 +547,34 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _popup_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./popup.js */ "./src/popup.js");
 
 
-const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2018-07-15&end_date=2018-07-20';
+
+const generateUrl = 'https://api.nasa.gov/planetary/apod?api_key=lbhIC5GaLFk8aa2ltHB7NCsAMv0h7zAXHEK2rKV4&start_date=2021-11-22&end_date=2021-11-27';
+const datesForPopup = ['2021-11-22', '2021-11-23', '2021-11-24', '2021-11-25', '2021-11-26', '2021-11-27'];
+const generateImage = () => `https://api.nasa.gov/planetary/apod?api_key=lbhIC5GaLFk8aa2ltHB7NCsAMv0h7zAXHEK2rKV4&date=${datesForPopup[0]}`;
 const displayData = document.querySelector('body > main > section');
+const starLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/likes/';
+const commentLink = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments';
 
 const getData = async (link) => {
   const response = await fetch(link);
   return response.json();
 };
 
-const displayDataTable = (image, title) => {
+const postData = async (url, data) => {
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  });
+  return response;
+};
+
+const displayDataTable = (image, title, index) => {
   const cardArt = document.createElement('div');
   cardArt.classList.add('card-container');
   cardArt.innerHTML = `
@@ -530,22 +586,128 @@ const displayDataTable = (image, title) => {
     <h3>${title}</h3>
   </div>
   <div class="like-comment">
-  <a class="love"><i class="far fa-heart"></i><small>0 likes</small></a>
-  <a class="comment"><i class="far fa-comment"></i><p id="text">comment</p></a>
+    <div class="my-love">
+      <a class="love" id="${index}like"><i class="far fa-heart"></i></a>
+    </div>
+     <small id="small">${index}likes</small>
+    <a class="comment"><i class="far fa-comment"></i><p id="text">comment</p></a>
    </div>
    </div>`;
   displayData.appendChild(cardArt);
 };
 
-const displayFromApi = () => {
-  getData(generateUrl)
-    .then((data) => {
-      displayData.innerHTML = '';
-      data.forEach((element) => displayDataTable(element.hdurl, element.title));
-    });
+function countElements(elem) {
+  return elem.childElementCount;
+}
+
+const closeDisplayPop = (target) => {
+  target.parentElement.parentElement.remove();
 };
 
+const countItems = () => {
+  const itemCount = document.querySelector('#item-count');
+  const mySection = document.querySelector('body > main > section');
+  itemCount.firstChild.innerHTML = `Exhibition ${countElements(mySection)}`;
+};
+
+const countComment = () => {
+  const commentCount = document.getElementById('comment-container');
+  commentCount.previousElementSibling.innerHTML = `Comments ${countElements(commentCount)}`;
+};
+
+function showComment(user, str) {
+  const ulContainer = document.querySelector('#comment-container');
+  const li = document.createElement('li');
+  li.innerHTML = `${user} : ${str}`;
+  ulContainer.appendChild(li);
+}
+
+function displayComments(id) {
+  const showProper = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9mAPgvMc6PjOJk4JU1ZU/comments?item_id=${id}`;
+  getData(showProper)
+    .then((data) => data.forEach((elem) => showComment(elem.username, elem.comment)))
+    .then(() => countComment());
+}
+
+function addComment(id, user, str) {
+  const data = {
+    item_id: id,
+    username: user,
+    comment: str,
+  };
+
+  postData(commentLink, data)
+    .then((data) => {
+      if (data.status === 201) {
+        showComment(user, str);
+      }
+    });
+}
+
+const displayImagePopup = (id) => {
+  getData(generateImage(id))
+    .then((data) => (0,_popup_js__WEBPACK_IMPORTED_MODULE_1__["default"])(data.hdurl, data.title, data.explanation, id))
+    .then(() => {
+      displayComments(id);
+      const closeBtn = document.getElementById('close-btn');
+      closeBtn.addEventListener('click', () => {
+        closeDisplayPop(closeBtn);
+      });
+    });
+  // .catch((error) => console.log(error));
+};
+
+const clickLove = (id, likes) => {
+  const small = document.getElementById(id);
+  small.parentElement.nextElementSibling.innerHTML = `${likes} likes`;
+};
+
+function displayLike() {
+  getData(starLink)
+    .then((data) => data.forEach((elem) => clickLove(elem.item_id, elem.likes)));
+}
+
+function displayFromApi() {
+  getData(generateUrl)
+    .then((data) => data.forEach((elem, index) => displayDataTable(elem.hdurl, elem.title, index)))
+    .then(() => {
+      displayLike();
+      countItems();
+    });
+}
+
+function giveLikes(id, stars) {
+  const data = { item_id: id };
+  postData(starLink, data)
+    .then((data) => {
+      if (data.status === 201) {
+        clickLove(id, stars);
+      }
+    });
+}
+
 displayFromApi();
+
+displayData.addEventListener('click', (e) => {
+  if (e.target.classList.contains('fa-heart')) {
+    e.preventDefault();
+    const oneL = parseInt(e.target.parentElement.parentElement.nextElementSibling.textContent, 10);
+    const likes = oneL + 1;
+    giveLikes(e.target.parentElement.id, likes);
+  }
+  if (e.target.classList.contains('fa-comment')) {
+    displayImagePopup(parseInt(e.target.parentElement.id, 10));
+  }
+  if (e.target.id === 'comment-btn') {
+    e.preventDefault();
+    const id = (e.target.parentElement.id).match(/[0-9]/g);
+    const userName = document.getElementById('username');
+    const comment = document.getElementById('comment-area');
+    addComment(id, userName.value, comment.value);
+    userName.value = '';
+    comment.value = '';
+  }
+});
 
 })();
 
